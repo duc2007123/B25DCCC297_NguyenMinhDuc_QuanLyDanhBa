@@ -35,6 +35,7 @@ class AddContactActivity : AppCompatActivity() {
             binding.groupSpinner.adapter = adapter
         }
 
+        binding.backButton.setOnClickListener { finish() }
         binding.saveButton.setOnClickListener { saveContact() }
     }
 

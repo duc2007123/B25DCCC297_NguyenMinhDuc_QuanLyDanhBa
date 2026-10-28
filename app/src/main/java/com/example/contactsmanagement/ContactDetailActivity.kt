@@ -41,6 +41,7 @@ class ContactDetailActivity : AppCompatActivity() {
         binding.favoriteCheckbox.setOnCheckedChangeListener { _, isChecked ->
             ContactRepository.setFavorite(contact.phone, isChecked)
         }
+        binding.backArrowButton.setOnClickListener { finish() }
         binding.callButton.setOnClickListener { dial() }
         binding.backButton.setOnClickListener { finish() }
         binding.deleteButton.setOnClickListener { deleteContact() }
