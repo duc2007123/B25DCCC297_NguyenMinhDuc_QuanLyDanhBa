@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Contacts Management</string>
+
+    <string name="login_title">Đăng nhập</string>
+    <string name="login_subtitle">Quản lý danh bạ liên hệ</string>
+    <string name="username">Tên đăng nhập</string>
+    <string name="password">Mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="error_login_empty">Vui lòng nhập tên đăng nhập và mật khẩu</string>
+    <string name="error_login_wrong">Sai tên đăng nhập hoặc mật khẩu</string>
+
+    <string name="contacts_title">Danh bạ</string>
+    <string name="statistics">Tổng số liên hệ: %1$d   •   Yêu thích: %2$d</string>
+    <string name="empty_contacts">Chưa có liên hệ nào</string>
+    <string name="add_contact">Thêm liên hệ</string>
+    <string name="contact_added">Đã thêm %1$s</string>
+
+    <string name="add_contact_title">Thêm liên hệ mới</string>
+    <string name="full_name">Họ và tên</string>
+    <string name="phone_number">Số điện thoại</string>
+    <string name="group">Nhóm</string>
+    <string name="gender">Giới tính</string>
+    <string name="male">Nam</string>
+    <string name="female">Nữ</string>
+    <string name="other_gender">Khác</string>
+    <string name="favorite">Yêu thích</string>
+    <string name="note">Ghi chú</string>
+    <string name="save_contact">Lưu liên hệ</string>
+    <string name="error_name_empty">Họ tên không được để trống</string>
+    <string name="error_phone_invalid">Số điện thoại phải gồm 10 chữ số và bắt đầu bằng 0</string>
+    <string name="error_phone_taken">Số điện thoại đã tồn tại trong danh bạ</string>
+
+    <string name="contact_detail_title">Chi tiết liên hệ</string>
+    <string name="group_gender">Nhóm: %1$s   •   Giới tính: %2$s</string>
+    <string name="no_note">Không có ghi chú</string>
+    <string name="call">Gọi điện</string>
+    <string name="back">Quay lại</string>
+    <string name="delete_contact">Xóa liên hệ</string>
+    <string name="contact_deleted">Đã xóa %1$s</string>
+    <string name="no_dialer">Không tìm thấy ứng dụng gọi điện</string>
+    <string name="favorite_star">★</string>
+
+    <string-array name="contact_groups">
+        <item>Gia đình</item>
+        <item>Bạn bè</item>
+        <item>Công việc</item>
+        <item>Khác</item>
+    </string-array>
+</resources>
