@@ -19,6 +19,7 @@
     <string name="full_name">Họ và tên</string>
     <string name="phone_number">Số điện thoại</string>
     <string name="group">Nhóm</string>
+    <string name="choose_group">Chọn nhóm</string>
     <string name="gender">Giới tính</string>
     <string name="male">Nam</string>
     <string name="female">Nữ</string>
